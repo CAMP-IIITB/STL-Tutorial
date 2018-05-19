@@ -5,6 +5,6 @@ Refer to the programs in the order given below
 3. sorting
 4. lower_bound and upper_bound
 5. pair
-6. set
-7. map
+6. set and map
+7. auto
 
