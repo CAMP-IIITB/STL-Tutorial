@@ -1,5 +1,5 @@
 #include <cstdio>
-#include <algorithm> // must include to use lower_buound and upper_bound
+#include <algorithm> // must include to use lower_bound and upper_bound
 #include <vector>
 
 using namespace std;
