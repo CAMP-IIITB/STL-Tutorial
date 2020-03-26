@@ -23,11 +23,17 @@ int main(){
   
   printf("The element at index 2 is %d\n", v[2]);
   
+  // It is even possible to initialise a vector of a certain size
+  vector<int> w(n) ;
+  // The elements are initialised to 0
+  // We can initialise them to -1 by adding a second argument
+  vector<int> w(n,-1);
+  
   // similarly you can create vectors of other types as well
   
   vector<bool> vector_of_booleans;
   vector<char> vector_of_chars;
-  // not that two consecutive '>' or '<' should always be separated with a space, else you will get an error
+  // note that two consecutive '>' or '<' should always be separated with a space, else you will get an error
   vector<vector<int> > vector_of_vectors;
   
   // the value inside the angled brackets, i.e. the T in vector<T> denotes the type of each element of the vector
